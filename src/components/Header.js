@@ -17,7 +17,7 @@ export default () => (
         <NavLink to="/classes"><Tab>Classes</Tab></NavLink>
       </Router>
       {/*<FA icon="facebook" />*/}
-      <Tab><a href="https://www.facebook.com/people/Bujinkan-Aryu/100012687460541" target="_blank"><img src="resources/images/facebook_lighticon.png" onMouseOver="hover(this)"/></a></Tab>
+      <Tab><a href="https://www.facebook.com/people/Bujinkan-Aryu/100012687460541" target="_blank"><img src="resources/images/facebook_lighticon.png" /></a></Tab>
     </Tabs>
   </Wrapper>
 )

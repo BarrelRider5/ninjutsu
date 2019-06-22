@@ -41,10 +41,10 @@ const Text = styled.div`
   }
 `
 
-const Heading = styled.h1`
+// const Heading = styled.h1`
   
-`
+// `
 
-const P = styled.p`
+// const P = styled.p`
   
-`
+// `

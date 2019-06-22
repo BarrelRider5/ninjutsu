@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './components/Header'
 import Top from './components/Top';
 import Banner from './components/Banner';
 import { Card1, Card, Text } from './components/Card1';
@@ -25,7 +24,7 @@ export default () => <div className="Home">
         <h3>Dr. Masaaki Hatsumi</h3>
         <h5>34<sup>th</sup> Grandmaster of Togakure Ryu</h5>
         <p>I believe that Ninpo, the higher order of Ninjutsu, should be offered to the world as a guiding influence for all martial artists. The physical and spiritual survival methods eventually immortalized by Japan’s ninjas were, in fact, one of the sources of Japanese martial arts.</p>
-        <a>{/*Learn More*/}</a>
+        <a href="google.com">{/*Learn More*/}</a>
       </Text>
       <img src="resources/images/hatsumi sensei daisho.JPG" alt="hatsumi sensei daisho"/>
     </Card> 
@@ -35,7 +34,7 @@ export default () => <div className="Home">
         <h3>The Art of Ninjutsu</h3>
         <h5></h5>
         <p>To train in the art of ninjutsu is to strengthen and discipline one's mind, body, and spirit through the traditional Martial Art of the Ninja. </p>
-        <a>{/*Learn More*/}</a>
+        <a href="google.com">{/*Learn More*/}</a>
       </Text>
     </Card>
   </Card1>

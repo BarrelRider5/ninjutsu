@@ -28,7 +28,7 @@ const Wrapper = styled.footer`
   padding: 10px 20px;
 `
 
-const Text = styled.p`
+const Text = styled.div`
   color: #333;
   display: flex;
   flex-direction: column;

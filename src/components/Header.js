@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import FontAwesome from '@fortawesome/fontawesome'
-import { BrowserRouter as Router, NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, NavLink, withRouter } from 'react-router-dom'
 
 function hover(el) {
   Element.setAttribute('src', 'resouces/images/facebook_whiteicon.png')
 }
 
-export default () => (
+export default withRouter(() => (
   <Wrapper>
     <Logo src="https://todaidojo.com/wp-content/uploads/Website-Logo.png" />
     <Tabs>
@@ -20,7 +20,7 @@ export default () => (
       <Tab><a href="https://www.facebook.com/people/Bujinkan-Aryu/100012687460541" target="_blank"><img src="resources/images/facebook_lighticon.png" /></a></Tab>
     </Tabs>
   </Wrapper>
-)
+))
 
 const FA = styled(FontAwesome)`
   color: purple;

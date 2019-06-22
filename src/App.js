@@ -9,8 +9,8 @@ import Home from './Home'
 import Instructor from './Instructor'
 
 export default () => <div className="App">
-  <Header />
   <Router>
+    <Header />
     <Switch>
       <Route path="/classes" component={Classes} />
       <Route path="/instructor" component={Instructor} />

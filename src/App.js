@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom'
 
 import Classes from './Classes'
 import Footer from './components/Footer'
@@ -9,13 +9,13 @@ import Home from './Home'
 import Instructor from './Instructor'
 
 export default () => <div className="App">
-  <Header />
   <Router>
+    <Header />
     <Switch>
       <Route path="/classes" component={Classes} />
       <Route path="/instructor" component={Instructor} />
       <Route path="/" component={Home} />
     </Switch>
+    <Footer />
   </Router>
-  <Footer />
 </div>

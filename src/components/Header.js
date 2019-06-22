@@ -7,7 +7,7 @@ function hover(el) {
   Element.setAttribute('src', 'resouces/images/facebook_whiteicon.png')
 }
 
-export default () => (
+export default withRouter(() => (
   <Wrapper>
     <Logo src="https://todaidojo.com/wp-content/uploads/Website-Logo.png" />
     <Tabs>
@@ -18,7 +18,7 @@ export default () => (
       <Tab><a href="https://www.facebook.com/people/Bujinkan-Aryu/100012687460541" target="_blank"><img src="resources/images/facebook_lighticon.png" /></a></Tab>
     </Tabs>
   </Wrapper>
-)
+))
 
 const FA = styled(FontAwesome)`
   color: purple;

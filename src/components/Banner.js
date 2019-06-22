@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 
 const Text = styled.div`
   align-items: center;
-  color: #fff;
+  color: #ccc;
   display: flex;
   flex-direction: column;
   font-size: 20px;

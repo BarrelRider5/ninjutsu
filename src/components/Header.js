@@ -1,20 +1,30 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import FontAwesome from '@fortawesome/fontawesome'
+import { BrowserRouter as Router, NavLink } from 'react-router-dom'
+
+function hover(el) {
+  Element.setAttribute('src', 'resouces/images/facebook_whiteicon.png')
+}
 
 export default () => (
   <Wrapper>
     <Logo src="https://todaidojo.com/wp-content/uploads/Website-Logo.png" />
     <Tabs>
-      <Tab>Ninjutsu</Tab>
-      <Tab>School</Tab>
-      <Tab>Instructors</Tab>
-      <Tab>Classes</Tab>
-      <Tab>Memberships</Tab>
-      <Tab>Shop</Tab>
-      <Tab>Login</Tab>    
+      <Router>
+        <NavLink to="/"><Tab>Ninjutsu</Tab></NavLink>
+        <NavLink to="/instructor"><Tab>Instructor</Tab></NavLink>
+        <NavLink to="/classes"><Tab>Classes</Tab></NavLink>
+      </Router>
+      {/*<FA icon="facebook" />*/}
+      <Tab><a href="https://www.facebook.com/people/Bujinkan-Aryu/100012687460541" target="_blank"><img src="resources/images/facebook_lighticon.png" onMouseOver="hover(this)"/></a></Tab>
     </Tabs>
   </Wrapper>
 )
+
+const FA = styled(FontAwesome)`
+  color: purple;
+`
 
 const Logo = styled.img`
   height: 40px; 
@@ -38,6 +48,22 @@ const Tabs = styled.ul`
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    height: 20px;
+    transition: .2s ease all;
+
+    &:hover {
+      background-color: #fff;
+      border-radius: 5px;
+      height: 25px;    
+    }
+  }
 `
 
 const Wrapper = styled.div`

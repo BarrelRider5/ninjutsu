@@ -13,7 +13,7 @@ export default ({ children, buttonText, buttonLink }) => (
 )
 
 const Mask = styled.div`
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -30,7 +30,7 @@ const Text = styled.div`
 
 const Wrapper = styled.div`
   align-items: center;
-  background: url('https://todaidojo.com/wp-content/uploads/yari-v-katana-1600x900.jpg') center center no-repeat;
+  background: url('resources/images/phil.JPG') center -200px no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #fff;

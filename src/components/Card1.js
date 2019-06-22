@@ -21,16 +21,17 @@ const Wrapper = styled.div`
 
 const Card = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: row;
   height: 500px;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0;
   padding: 0;
 
   img {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
+    height: 100%;
+    min-width: 50%;
+    object-fit: cover;
   }
 `
 
@@ -39,20 +40,29 @@ const Text = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  min-width: 50%;
   text-align: center;
-  width: 100%;
 
   h3 {
-    color: #555;
+    color: #333;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;  
     width: 70%;
   }
 
+  h5 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;  
+    margin: 0;
+    padding: 0;
+    width: 70%;
+  }
+
   p {
-    color: #777;
+    color: #999;
     font-size: 20px;
     width: 70%;
   }

@@ -17,7 +17,7 @@ export default class ButtonComponent extends Component {
 }
 
 const Button = styled.button`
-  background: linear-gradient(#d26e4b, #d26e4b 49%, #c15d3a 50%);
+  background-color: #888;
   border: none;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 1px;
@@ -28,11 +28,11 @@ const Button = styled.button`
   padding: 16px;
   position: relative;
   text-transform: uppercase;
-  transition: .3s ease all;
+  transition: .4s ease all;
   top: 0;
 
   &:hover {
-    background: linear-gradient(#c15d3a, #c15d3a 49%, #c15d3a 50%);
+    background-color: rgb(255, 40, 0);
     top: -5px;
   }
 `

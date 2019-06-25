@@ -45,7 +45,7 @@ const Text = styled.div`
 
   h3 {
     color: #333;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;  
     width: 70%;
@@ -53,7 +53,7 @@ const Text = styled.div`
 
   h5 {
     color: #333;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;  
     margin: 0;
@@ -68,13 +68,13 @@ const Text = styled.div`
   }
 
   a {
-    color: #D26E4B;
+    color: #333;
     font-size: 20px;
     transition: .3s ease all;
     width: 70%;
 
     &:hover {
-      color: #333
+      color: rgb(255, 40, 0);
     }
   }
 `

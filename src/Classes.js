@@ -9,31 +9,31 @@ export default () => <div className="ClassesApp">
       At Bujinkan Aryu Dojo, trainings are held several times a week or by arrangement. 
     </h2>
     <p>
-      Learn to persevere through life’s challenges. Connect to over 500 years of Warriorship. Study the methods of Japan’s most elite warriors – the Ninja and Samurai. Hone your body and mind.
+      At Bujinkan Aryu Dojo, we study and teach the art of Ninjutsu. Students of our dojo enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
     </p>
   </Top>
   <Banner>
-    <h1 alt="What is ninjutsu">What is Ninjutsu?</h1>
+    <h1>Training</h1>
     <p>
-      Ninjutsu (忍術) translates as the “art of perseverance.” While a relatively modern term, it refers to the skills and method of the Ninja that occupied the Iga and Koka regions of feudal Japan. We are part of the Bujinkan (武神館) founded by Masaaki Hatsumi. The Bujinkan studies nine lineages that trace back to feudal Iga. The training is comprised of philosophy and strategy, hand-to-hand combat, and various weaponry.
+      Training is centered on studying the 9 schools of Ninjutsu and applying traditional fighting techniques in today's time. It is the connection of traditional and modern times. Besides the traditional weapons of ancient Japan (katana, tanto, bo, hanbo, jutte, kusari fundo, kyoketsu shoge…), emphasis is also given to the weapons that are most commonly found on the streets today (knife, pistol, stick…).
     </p>
   </Banner>
   <Card1>
     <Card>
       <Text>
-        <h3>Dr. Masaaki Hatsumi</h3>
-        <h5>34<sup>th</sup> Grandmaster of Togakure Ryu</h5>
-        <p>I believe that Ninpo, the higher order of Ninjutsu, should be offered to the world as a guiding influence for all martial artists. The physical and spiritual survival methods eventually immortalized by Japan’s ninjas were, in fact, one of the sources of Japanese martial arts.</p>
+        <h3>体術 (Taijutsu)</h3>
+        <h5>Hand to hand combat and submission techniques</h5>
+        <p>Hone your body and mind to turn yourself into a living weapon. Learn Taijutsu so you can break people's arms in self-defense. They will never bother you again.</p>
         <a href="google.com">{/*Learn More*/}</a>
       </Text>
-      <img src="resources/images/hatsumi sensei daisho.JPG" alt="hatsumi sensei daisho"/>
+      <img src="resources/images/curved_spear_forward.JPG" alt="hatsumi sensei daisho"/>
     </Card> 
     <Card>
       <img src="resources/images/curved_spear_forward.JPG" alt="ninjutsu"/>
       <Text>
-        <h3>The Art of Ninjutsu</h3>
-        <h5></h5>
-        <p>To train in the art of ninjutsu is to strengthen and discipline one's mind, body, and spirit through the traditional Martial Art of the Ninja. </p>
+        <h3>忍術 (Ninjutsu)</h3>
+        <h5>Traditional and modern self-defense tactics</h5>
+        <p>Are you the coolest person you know? If you're not a ninja, then the answer is no. Fix that problem today by signing up to become a ninja!</p>
         <a href="google.com">{/*Learn More*/}</a>
       </Text>
     </Card>

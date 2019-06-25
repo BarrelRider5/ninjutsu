@@ -6,10 +6,10 @@ import { Card1, Card, Text } from './components/Card1';
 export default () => <div className="Home">
   <Top /*buttonText="changedText"*/>
     <h2>
-      Ninjutsu creates confident, enlightened warriors
+      Achieve greater confidence as you train in the traditional style of Japan's ninja warriors
     </h2>
     <p>
-      Learn to persevere through life’s challenges. Connect to over 500 years of Warriorship. Study the methods of Japan’s most elite warriors – the Ninja and Samurai. Hone your body and mind.
+      At Bujinkan Aryu Dojo, we study and teach the art of Ninjutsu. Students of our dojo enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
     </p>
   </Top>
   <Banner>

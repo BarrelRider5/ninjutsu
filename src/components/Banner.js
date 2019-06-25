@@ -39,6 +39,18 @@ const Text = styled.div`
   p {
     font-weight: 500;
   }
+
+  a {
+    color: #aaa;
+    font-size: 20px;
+    padding: 8px 0;
+    transition: .3s ease all;
+    width: 70%;
+
+    &:hover {
+      color: rgb(255, 40, 0);
+    }
+  }
 `
 
 // const Heading = styled.h1`

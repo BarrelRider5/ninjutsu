@@ -6,35 +6,36 @@ import { Card1, Card, Text } from './components/Card1';
 export default () => <div className="InstructorApp">
   <Top /*buttonText="changedText"*/>
     <h2>
-      At Bujinkan Aryu Dojo, the instructors are weird and Croatian.
+      The head instructor at Bujinkan Aryu Dojo, Zoran Korajac, is an officially licensed Bujinkan instructor, and has been studying the art of Ninjutsu for over _____ years.
     </h2>
     <p>
-      Learn to persevere through life’s challenges. Connect to over 500 years of Warriorship. Study the methods of Japan’s most elite warriors – the Ninja and Samurai. Hone your body and mind.
+      At Bujinkan Aryu Dojo, we study and teach the art of Ninjutsu. Students of our dojo enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
     </p>
   </Top>
   <Banner>
-    <h1>What is Ninjutsu?</h1>
+    <h1>What is Bujinkan?</h1>
     <p>
-      Ninjutsu (忍術) translates as the “art of perseverance.” While a relatively modern term, it refers to the skills and method of the Ninja that occupied the Iga and Koka regions of feudal Japan. We are part of the Bujinkan (武神館) founded by Masaaki Hatsumi. The Bujinkan studies nine lineages that trace back to feudal Iga. The training is comprised of philosophy and strategy, hand-to-hand combat, and various weaponry.
+      The Bujinkan (武神館) is an international martial arts organization based in Japan and headed by Masaaki Hatsumi. The main approach includes gaining compliance through pain and utilising self-defense techniques. The Bujinkan largely focuses on “taijutsu” (body movement/skills) as well as other skills of ninjutsu (ninpo tactics and strategies) and happo biken jutsu (various modern and traditional weapons). 
     </p>
+    <a href="https://en.wikipedia.org/wiki/Bujinkan" target="_blank">Learn More</a>
   </Banner>
   <Card1>
     <Card>
       <Text>
-        <h3>Dr. Masaaki Hatsumi</h3>
-        <h5>34<sup>th</sup> Grandmaster of Togakure Ryu</h5>
-        <p>I believe that Ninpo, the higher order of Ninjutsu, should be offered to the world as a guiding influence for all martial artists. The physical and spiritual survival methods eventually immortalized by Japan’s ninjas were, in fact, one of the sources of Japanese martial arts.</p>
-        <a href="google.com">{/*Learn More*/}</a>
+        <h3>Ranking</h3>
+        <h5>段 (dan)</h5>
+          <p>At Bujinkan Dojo, students advance and progress through a ranking system by demonstrating proficiency in various ninjutsu techniques and a firm comprehension of the art of ninjutsu.</p>
+        <a href="https://en.wikipedia.org/wiki/Bujinkan#Dan_levels" target="_blank">Learn More</a>
       </Text>
-      <img src="resources/images/hatsumi sensei daisho.JPG" alt="hatsumi sensei daisho"/>
+      <img src="resources/images/Yon dan Rank.JPG" alt="yon dan ranking"/>
     </Card> 
     <Card>
-      <img src="resources/images/curved_spear_forward.JPG" alt="ninjutsu"/>
+      <img src="resources/images/instructor license.JPG" alt="instructor license"/>
       <Text>
-        <h3>The Art of Ninjutsu</h3>
-        <h5></h5>
-        <p>To train in the art of ninjutsu is to strengthen and discipline one's mind, body, and spirit through the traditional Martial Art of the Ninja. </p>
-        <a href="google.com">{/*Learn More*/}</a>
+        <h3>Certified Instructor</h3>
+        <h5>士道師 (shidōshi)</h5>
+        <p>In order to open and operate a Bujinkan Dojo, instructors must obtain official licensure by demonstrating mastery in all the basic survival skills and tactics of ninjutsu. </p>
+        <a href="https://en.wikipedia.org/wiki/Bujinkan#Dan_levels" target="_blank">Learn More</a>
       </Text>
     </Card>
   </Card1>

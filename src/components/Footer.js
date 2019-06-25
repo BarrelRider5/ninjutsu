@@ -53,7 +53,7 @@ const SecondLine = styled.p`
 `
 
 const Icons = styled.div`
-  align-items: flex-end;
+  align-items: center;
   border: 1px solid #333;
   border-radius: 5px;
   color: #333;
@@ -63,9 +63,10 @@ const Icons = styled.div`
   font-weight: 500;
   margin: 0;
   padding: 8px;
-  transition: .3s ease all;
+  transition: .2s ease all;
 
   :active {
+      transition: .1s ease all;
     :hover {
       background-color: #888;
       box-shadow: 2px 2px #555;
@@ -73,24 +74,28 @@ const Icons = styled.div`
   }
 
   a:link {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
     color: #333;
     text-decoration: none;
-    transition: .8s;
+    transition: .3s;
 
     &:hover {
-      color: #ccc;
+      color: rgb(255, 40, 0);
     }
   }
 
   a:visited {
-    color: #ccc;
+    color: inherit;
 
     &:hover {
-      color: #333;
+      color: rgb(255, 40, 0);
     }
   } 
 
   img {
     height: 40px;
+    padding-right: 8px;
   }
 `

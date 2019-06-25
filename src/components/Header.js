@@ -7,11 +7,11 @@ function hover(el) {
   Element.setAttribute('src', 'resouces/images/facebook_whiteicon.png')
 }
 
-export default withRouter(() => (
+export default (() => (
   <Wrapper>
-    <Logo src="https://todaidojo.com/wp-content/uploads/Website-Logo.png" />
+    <Logo src="resources/images/Bujinkan-logo.JPG" />
     <Tabs>
-      <Tab><NavLink to="/">Ninjutsu</NavLink></Tab>
+      <Tab><NavLink to="/">Home</NavLink></Tab>
       <Tab><NavLink to="/instructor">Instructor</NavLink></Tab>
       <Tab><NavLink to="/classes">Classes</NavLink></Tab>
       {/*<FA icon="facebook" />*/}

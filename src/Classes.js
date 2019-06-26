@@ -26,14 +26,14 @@ export default () => <div className="ClassesApp">
         <p>Hone your body and mind to turn yourself into a living weapon. Learn Taijutsu so you can break people's arms in self-defense. They will never bother you again.</p>
         <a href="google.com">{/*Learn More*/}</a>
       </Text>
-      <img src="resources/images/curved_spear_forward.JPG" alt="hatsumi sensei daisho"/>
+      <img src="resources/images/class2.JPG" alt="hatsumi sensei daisho"/>
     </Card> 
     <Card>
       <img src="resources/images/curved_spear_forward.JPG" alt="ninjutsu"/>
       <Text>
         <h3>忍術 (Ninjutsu)</h3>
         <h5>Traditional and modern self-defense tactics</h5>
-        <p>Are you the coolest person you know? If you're not a ninja, then the answer is no. Fix that problem today by signing up to become a ninja!</p>
+        <p>Are you the coolest person you know? If you're not a ninja, then the answer is no. Fix that problem today by joining our dojo and learning to become a ninja!</p>
         <a href="google.com">{/*Learn More*/}</a>
       </Text>
     </Card>

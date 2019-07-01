@@ -6,10 +6,10 @@ import { Card1, Card, Text } from './components/Card1';
 export default () => <div className="ClassesApp">
   <Top /*buttonText="changedText"*/>
     <h2>
-      At Bujinkan Aryu Dojo, trainings are held several times a week or by arrangement. 
+      At Bujinkan Aryu Dojo Utah, trainings are held several times a week or by arrangement. 
     </h2>
     <p>
-      At Bujinkan Aryu Dojo, we study and teach the art of Ninjutsu. Students of our dojo enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
+      At Bujinkan Aryu Dojo Utah, we study and teach the art of Ninjutsu. Students of our dojo enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
     </p>
   </Top>
   <Banner>
@@ -26,7 +26,7 @@ export default () => <div className="ClassesApp">
         <p>Hone your body and mind to turn yourself into a living weapon. Learn Taijutsu so you can break people's arms in self-defense. They will never bother you again.</p>
         <a href="google.com">{/*Learn More*/}</a>
       </Text>
-      <img src="resources/images/class2.JPG" alt="hatsumi sensei daisho"/>
+      <img src="resources/images/demo.PNG" alt="hatsumi sensei daisho"/>
     </Card> 
     <Card>
       <img src="resources/images/curved_spear_forward.JPG" alt="ninjutsu"/>

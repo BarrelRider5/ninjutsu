@@ -5,7 +5,7 @@ export default () => (
   <Wrapper>
     <Text>
       <FirstLine><strong>Bujinkan Aryu Dojo Utah</strong></FirstLine>
-      <SecondLine><a>Phone: 385.250.7187</a><Pipe>|</Pipe><a>Email: AryuBujinkan@gmail.com</a></SecondLine>
+      <SecondLine><a>Phone: 385.250.7187</a><Pipe>|</Pipe><a>Email: AryuBujinnkan@gmail.com</a></SecondLine>
     </Text>
     <Icons>
       <a href="https://www.facebook.com/people/Bujinkan-Aryu/100012687460541" target="_blank"><img src="resources/images/facebook_darkicon.png" /> Bujinkan Aryu Dojo (Utah, USA)</a>

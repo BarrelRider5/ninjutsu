@@ -8,7 +8,7 @@ export default ({ children, buttonText, buttonLink }) => (
     <Text>
       {children}
     </Text>
-    <Button text={buttonText || "Experience Ninjutsu for just $7"} link={buttonLink || "/cart"} />
+    {/*<Button text={buttonText || "Experience Ninjutsu for just $7"} link={buttonLink || "/cart"} />*/}
   </Wrapper>
 )
 

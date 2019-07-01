@@ -6,10 +6,10 @@ import { Card1, Card, Text } from './components/Card1';
 export default () => <div className="InstructorApp">
   <Top /*buttonText="changedText"*/>
     <h2>
-      The head instructor at Bujinkan Aryu Dojo, Zoran Korajac, is an officially licensed Bujinkan instructor, and has been studying the art of Ninjutsu for over _____ years.
+      The head instructor at Bujinkan Aryu Dojo Utah, Zoran Korajac, is an officially licensed Bujinkan instructor, and has been studying the art of Ninjutsu since 2001.
     </h2>
     <p>
-      At Bujinkan Aryu Dojo, we study and teach the art of Ninjutsu. Students of our dojo enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
+      At Bujinkan Aryu Dojo Utah, we study and teach the art of Ninjutsu. Students of our dojo enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
     </p>
   </Top>
   <Banner>
@@ -34,8 +34,8 @@ export default () => <div className="InstructorApp">
       <Text>
         <h3>Certified Instructor</h3>
         <h5>士道師 (shidōshi)</h5>
-        <p>In order to open and operate a Bujinkan Dojo, instructors must obtain official licensure by demonstrating mastery in all the basic survival skills and tactics of ninjutsu. </p>
-        <a href="https://en.wikipedia.org/wiki/Bujinkan#Dan_levels" target="_blank">Learn More</a>
+        <p></p>
+        {/*<a href="https://en.wikipedia.org/wiki/Bujinkan#Dan_levels" target="_blank">Learn More</a>*/}
       </Text>
     </Card>
   </Card1>

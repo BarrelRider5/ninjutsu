@@ -4,7 +4,7 @@ import Banner from './components/Banner';
 import { Card1, Card, Text } from './components/Card1';
 
 export default () => <div className="InstructorApp">
-  <Top /*buttonText="changedText"*/ image="Instructor-in-dojo.JPG" topAlign>
+  <Top /*buttonText="changedText"*/ image="Instructor-in-dojo.jpg" topAlign>
     <h2>
       The head instructor at Bujinkan Aryu Dojo Utah, Zoran Korajac, is an officially licensed Bujinkan instructor, and has been studying the art of Ninjutsu since 2001.
     </h2>
@@ -27,10 +27,10 @@ export default () => <div className="InstructorApp">
           <p>At Bujinkan Dojo, students advance and progress through a ranking system by demonstrating proficiency in various ninjutsu techniques and a firm comprehension of the art of ninjutsu.</p>
         <a href="https://en.wikipedia.org/wiki/Bujinkan#Dan_levels" target="_blank">Learn More</a>
       </Text>
-      <img src="resources/images/Yon dan Rank.JPG" alt="yon dan ranking"/>
+      <img src="resources/images/Yon dan Rank.jpg" alt="yon dan ranking"/>
     </Card> 
     <Card>
-      <img src="resources/images/instructor license.JPG" alt="instructor license"/>
+      <img src="resources/images/instructor license.jpg" alt="instructor license"/>
       <Text>
         <h3>Certified Instructor</h3>
         <h5>士道師 (shidōshi)</h5>

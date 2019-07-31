@@ -14,6 +14,7 @@ export default (() => (
       <Tab><NavLink to="/">Home</NavLink></Tab>
       <Tab><NavLink to="/instructor">Instructor</NavLink></Tab>
       <Tab><NavLink to="/classes">Classes</NavLink></Tab>
+      <Tab><NavLink to="/register">Register</NavLink></Tab>
       {/*<FA icon="facebook" />*/}
       <Tab><a href="https://www.facebook.com/people/Bujinkan-Aryu/100012687460541" target="_blank"><img src="resources/images/facebook_lighticon.png" /></a></Tab>
     </Tabs>

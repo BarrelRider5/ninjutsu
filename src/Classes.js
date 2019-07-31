@@ -4,7 +4,7 @@ import Banner from './components/Banner';
 import { Card1, Card, Text } from './components/Card1';
 
 export default () => <div className="ClassesApp">
-  <Top /*buttonText="changedText"*/>
+  <Top /*buttonText="changedText"*/ image="dojo7.JPG">
     <h2>
       At Bujinkan Aryu Dojo Utah, trainings are held several times a week or by arrangement. 
     </h2>
@@ -23,7 +23,7 @@ export default () => <div className="ClassesApp">
       <Text>
         <h3>体術 (Taijutsu)</h3>
         <h5>Hand to hand combat and submission techniques</h5>
-        <p>Hone your body and mind to turn yourself into a living weapon. Learn Taijutsu so you can break people's arms in self-defense. They will never bother you again.</p>
+        <p>Hone your body and mind to increase your confidence and sense of security as you learn the art of hand-to-hand combat.</p>
         <a href="google.com">{/*Learn More*/}</a>
       </Text>
       <img src="resources/images/demo.PNG" alt="hatsumi sensei daisho"/>
@@ -33,7 +33,7 @@ export default () => <div className="ClassesApp">
       <Text>
         <h3>忍術 (Ninjutsu)</h3>
         <h5>Traditional and modern self-defense tactics</h5>
-        <p>Are you the coolest person you know? If you're not a ninja, then the answer is no. Fix that problem today by joining our dojo and learning to become a ninja!</p>
+        <p>Join our dojo and learn the way of the ninja!</p>
         <a href="google.com">{/*Learn More*/}</a>
       </Text>
     </Card>

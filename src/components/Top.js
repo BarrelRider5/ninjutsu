@@ -2,8 +2,10 @@ import React from 'react'
 import styled from '@emotion/styled'
 import Button from './Button'
 
-export default ({ children, buttonText, buttonLink }) => (
-  <Wrapper>
+const prefix = "resources/images/"
+
+export default ({ children, buttonText, buttonLink, image, topAlign }) => (
+  <Wrapper link={prefix + image} topAlign={topAlign}>
     <Mask />
     <Text>
       {children}
@@ -22,7 +24,8 @@ const Mask = styled.div`
 const Text = styled.div`
   margin: 0;
   max-width: 1000px;
-  padding-top: 275px;
+  justify-content: center;
+  padding-top: 40px;
   position: relative;
   text-align: center;
   width: 80%;
@@ -30,7 +33,7 @@ const Text = styled.div`
 
 const Wrapper = styled.div`
   align-items: center;
-  background: url('resources/images/phil.JPG') center -200px no-repeat;
+  background: url(${props => props.link}) ${props => props.topAlign ? "top" : "center"} center no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
@@ -41,5 +44,5 @@ const Wrapper = styled.div`
   justify-content: center;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 `

@@ -4,7 +4,7 @@ import Banner from './components/Banner';
 import { Card1, Card, Text } from './components/Card1';
 
 export default () => <div className="Home">
-  <Top /*buttonText="changedText"*/>
+  <Top /*buttonText="changedText"*/ image="Phil.JPG" >
     <h2>
       Achieve greater confidence as you train in the traditional style of Japan's ninja warriors
     </h2>

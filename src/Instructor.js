@@ -4,7 +4,7 @@ import Banner from './components/Banner';
 import { Card1, Card, Text } from './components/Card1';
 
 export default () => <div className="InstructorApp">
-  <Top /*buttonText="changedText"*/>
+  <Top /*buttonText="changedText"*/ image="Instructor-in-dojo.JPG" topAlign>
     <h2>
       The head instructor at Bujinkan Aryu Dojo Utah, Zoran Korajac, is an officially licensed Bujinkan instructor, and has been studying the art of Ninjutsu since 2001.
     </h2>

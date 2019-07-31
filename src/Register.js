@@ -22,7 +22,7 @@ export default () => <div className="Register">
     <Card>
       <Text>
         <h3>2019-2020 Class Schedule:</h3>
-        <h5>Tuesdays 2:00-4:00<br></br>Thursdays 4:00-6:00<br></br></h5>
+        <h5>Tuesdays 3:00-5:00<br></br>Thursdays 4:00-6:00<br></br></h5>
         <p>Location: 1065 S. Woodland Hills Dr. Woodland Hills<br></br><br></br>Classes start Tues, Sep 3<sup>rd</sup>/Thurs, Sep 5<sup>th</sup> and end Tues, May 26<sup>th</sup>/Thurs, May 28<sup>th</sup></p>
         <a href="google.com">{/*Learn More*/}</a>
       </Text>

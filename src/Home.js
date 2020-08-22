@@ -9,7 +9,7 @@ export default () => <div className="Home">
       Achieve greater confidence as you train in the traditional style of Japan's ninja warriors
     </h2>
     <p>
-      At Bujinkan Aryu Dojo, we study and teach the art of Ninjutsu. Students of our dojo enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
+      At Bujinkan Aryu Dojo, we study and teach the art of Ninjutsu. Our students enjoy the thrill of exploring traditional ninja tactics and applying them to modern self-defense training.
     </p>
   </Top>
   <Banner>

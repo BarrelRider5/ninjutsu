@@ -15,7 +15,7 @@ export default () => <div className="ClassesApp">
   <Banner>
     <h1>Training</h1>
     <p>
-      Training is centered on studying the 9 schools of Ninjutsu and applying traditional fighting techniques in today's time. It is the connection of traditional and modern times. Besides the traditional weapons of ancient Japan (katana, tanto, bo, hanbo, jutte, kusari fundo, kyoketsu shoge…), emphasis is also given to the weapons that are most commonly found on the streets today (knife, pistol, stick…). Students will advance in belt ranks while learning practical skills to last a lifetime.
+      Training is centered on studying the 9 schools of Ninjutsu and applying traditional fighting techniques in today's time. It is the connection of traditional and modern times. Besides the traditional weapons of ancient Japan (katana, tanto, bo, hanbo, jutte, kusari fundo, kyoketsu shoge…), emphasis is also given to the weapons that are most commonly found on the streets today (knife, pistol, stick…). Students advance in belt ranks while learning practical skills to last a lifetime.
     </p>
   </Banner>
   <Card1>
